@@ -3,14 +3,26 @@ import { createTheme, responsiveFontSizes } from "@mui/material";
 let theme = createTheme({
   palette: {
     primary: {
-      main: '#E1E6FA'
+      main: '#232323'
     },
     secondary: {
-      main: '#AEB5EF'
+      main: '#234b1e'
     }
   },
   typography: {
-    fontFamily: 'Roboto'
+    fontFamily: [
+      // '"Helvetica Neue"',
+      // '-apple-system',
+      // 'BlinkMacSystemFont',
+      // '"Segoe UI"',
+      'Roboto',
+      // '"Helvetica Neue"',
+      // 'Arial',
+      // 'sans-serif',
+      // '"Apple Color Emoji"',
+      // '"Segoe UI Emoji"',
+      // '"Segoe UI Symbol"',
+    ].join(','),
   }
 })
 
