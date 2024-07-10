@@ -23,6 +23,12 @@ let theme = createTheme({
       // '"Segoe UI Emoji"',
       // '"Segoe UI Symbol"',
     ].join(','),
+    h6: {
+      fontWeight: 700,
+      color: '#234b1e',
+      textTransform: 'uppercase',
+      letterSpacing: '1px',
+    },
   }
 })
 
